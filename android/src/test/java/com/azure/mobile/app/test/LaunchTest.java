@@ -1,7 +1,7 @@
 package com.azure.mobile.app.test;
 
-import com.xamarin.testcloud.appium.EnhancedAndroidDriver;
-import com.xamarin.testcloud.appium.Factory;
+import com.microsoft.appcenter.appium.Factory;
+import com.microsoft.appcenter.appium.EnhancedAndroidDriver;
 import org.junit.*;
 import org.junit.rules.TestWatcher;
 import io.appium.java_client.MobileElement;
@@ -32,7 +32,7 @@ public class LaunchTest {
     }
 
     @Test
-    public void AppLaunchTest() {
+    public void appDoesLaunch() {
         try {
                 Thread.sleep(10000);  // This should allow any animations to complete in most cases
             } catch (InterruptedException ex) {

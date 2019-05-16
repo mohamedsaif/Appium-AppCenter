@@ -17,3 +17,12 @@ npm install -g appcenter-cli
 Once installed, use the `appcenter` command.
 
 > ***NOTE:*** This code was generated using App Center CLI version 1.1.18
+
+Open you command line (or terminal) and move to a target folder and execute the following command:
+
+```cmd
+appcenter test generate appium --platform android
+
+appcenter test generate appium --platform ios
+```
+
