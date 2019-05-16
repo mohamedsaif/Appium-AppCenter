@@ -40,6 +40,7 @@ public class LaunchTest {
         driver.label("App has launched");
     }
 
+    //This is a dummy test, but you should start adding your tests in a similar manner.
     //@Test
     public void tapRandomButtonsTest() {
         Random rand = new Random();
