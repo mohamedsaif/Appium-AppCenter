@@ -8,10 +8,8 @@ In order to generate the latest Appium code template, you can use [App Center CL
 
 Follow the instructions above to install the latest App Center CLI npm package.
 
-```javascript
-
+```cmd
 npm install -g appcenter-cli
-
 ```
 
 Once installed, use the `appcenter` command.
@@ -20,9 +18,14 @@ Once installed, use the `appcenter` command.
 
 Open you command line (or terminal) and move to a target folder and execute the following command:
 
-```cmd
-appcenter test generate appium --platform android
+In the android folder, execute the following command:
 
-appcenter test generate appium --platform ios
+```cmd
+appcenter test generate appium --platform android --output-path .
 ```
 
+In the iOS folder, execute the following command:
+
+```cmd
+appcenter test generate appium --platform ios --output-path .
+```
